@@ -1,5 +1,6 @@
 import React from "react";
-import bgImage from "./assets/vadim-kaipov-8ZELrodSvTc-unsplash.jpg"; // put your hero background image here
+import bgImage from "../assets/vadim-kaipov-8ZELrodSvTc-unsplash.jpg"; // put your hero background image here
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,8 +22,9 @@ const Home = () => {
 
         {/* Menu */}
         <div className="flex items-center space-x-8 text-white font-medium">
-          <a href="#home" className="hover:text-green-400">Home</a>
-          <a href="#shop" className="hover:text-green-400">Shop</a>
+
+        <Link to="/"> <a href="#home" className="hover:text-green-400">Home</a></Link> 
+        <Link to="/shop">  <a href="#shop" className="hover:text-green-400">Shop</a></Link>
           <a href="#about" className="hover:text-green-400">About</a>
           <a href="#contact" className="hover:text-green-400">Contact</a>
 
