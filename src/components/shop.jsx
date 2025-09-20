@@ -96,7 +96,7 @@ const Shop = () => {
               <h5 className="text-xl font-bold text-green-600 mt-2">
                 {product.price}
               </h5>
-              <button className="mt-4 w-full bg-green-600 text-white py-2 rounded-xl hover:bg-green-700 transition">
+              <button className="mt-4 w-full bg-green-600 text-white py-2 rounded-xl hover:bg-green-700 transition cursor-pointer">
                 Add to cart
               </button>
             </div>

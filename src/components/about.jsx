@@ -36,7 +36,7 @@ const About = () => {
             We strive to provide our customers with the highest quality
           </h3>
           <p className="text-gray-600 leading-relaxed">
-            Urban Jungle Co. was founded in 1960 by a group of plant
+            Happy Leaves Co. was founded in 1960 by a group of plant
             enthusiasts who recognized the positive impact that plants can have
             on our lives. Whether it’s purifying the air, reducing stress, or
             simply adding a touch of beauty to your environment, plants are more

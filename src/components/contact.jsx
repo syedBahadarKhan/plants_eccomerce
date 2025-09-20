@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="w-full">
       {/* Top Banner */}
       <div
-        className="h-64 md:h-96 bg-cover bg-center flex flex-col items-center justify-center text-white text-center relative"
+        className="h-64 md:h-110 bg-cover bg-center flex flex-col items-center justify-center text-white text-center relative"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80')",
@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
             <div>
               <h4 className="font-medium">Phone</h4>
-              <p className="text-gray-600 text-sm md:text-base">555-1234-678</p>
+              <p className="text-gray-600 text-sm md:text-base">0300-429166989</p>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
             </div>
             <div>
               <h4 className="font-medium">Email</h4>
-              <p className="text-gray-600 text-sm md:text-base">mail@example.com</p>
+              <p className="text-gray-600 text-sm md:text-base">bahadardeveloper@gmail.com</p>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ const Contact = () => {
             <div>
               <h4 className="font-medium">Address</h4>
               <p className="text-gray-600 text-sm md:text-base">
-                2927 Westheimer Rd Santa Ana, Illinois 85486
+                street 2 Hayataabad Phase 2
               </p>
             </div>
           </div>
@@ -114,13 +114,13 @@ const Contact = () => {
       {/* Social Section */}
       <div className="bg-green-100 py-8 text-center px-4">
         <p className="mb-4 font-medium text-sm md:text-base">
-          Follow us @Urban Jungle Co.
+          Follow us @Happy Leaves
         </p>
         <div className="flex justify-center space-x-6 text-lg text-gray-600">
-          <i className="fab fa-facebook"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-youtube"></i>
-          <i className="fab fa-twitter"></i>
+          <i className="fab fa-facebook hover:text-blue-500 cursor-pointer"></i>
+          <i className="fab fa-instagram hover:text-red-500 cursor-pointer"></i>
+          <i className="fab fa-youtube hover:text-red-500 cursor-pointer"></i>
+          <i className="fab fa-twitter hover:text-blue-black cursor-pointer"></i>
         </div>
       </div>
 

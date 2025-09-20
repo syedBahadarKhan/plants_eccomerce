@@ -131,7 +131,7 @@ const Navbar = () => {
       {/* Logo */}
      <Link to="/"> <div className="flex items-center font-semibold text-lg">
         <img src="/batman.png" alt="logo" className="h-10 w-18 mr-2" />
-        URBAN JUNGLE CO.
+       Happy Leaves Co.
       </div></Link>
 
       {/* Desktop Menu */}
@@ -159,8 +159,8 @@ const Navbar = () => {
 
         {/* Cart */}
         <div className="relative cursor-pointer">
-          <i className="fas fa-shopping-bag hover:text-green-600" ></i>
-          <span className="absolute -top-2 -right-2 bg-white text-black text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
+          <i className="fas fa-shopping-bag text-green-500 " ></i>
+          <span className="absolute -top-2 -right-2 bg-green text-green text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
             0
           </span>
         </div>
